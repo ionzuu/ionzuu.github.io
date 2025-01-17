@@ -24,7 +24,7 @@ next.addEventListener("click", function () {
   const prevbtn = document.getElementById(`${i}`).classList;
   prevbtn.remove("selected");
   prevbtn.add("hidden");
-  if (i === 4) {
+  if (i === 5) {
     i = 0;
   }
   i++;
