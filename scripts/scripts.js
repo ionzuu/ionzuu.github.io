@@ -11,7 +11,7 @@ prev.addEventListener("click", function () {
   prevbtn.remove("selected");
   prevbtn.add("hidden");
   if (i === 0) {
-    i = 5
+    i = 6
   }
   i--;
 
